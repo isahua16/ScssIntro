@@ -1,0 +1,25 @@
+#page_header {
+  width: 100%;
+  min-height: 10vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  animation: alert 1s ease-in-out infinite alternate;
+  border-bottom: 10px solid $secondary-color;
+
+  svg {
+    transition: background-color 1s ease-in-out;
+
+    &:active {
+      background-color: $secondary-color;
+    }
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 12px;
+    transition: font-size 1s ease-in-out;
+  }
+}

@@ -15,7 +15,8 @@
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr;
-  animation: alert 1s ease-in-out infinite alternate; }
+  animation: alert 1s ease-in-out infinite alternate;
+  border-bottom: 10px solid aqua; }
   #page_header svg {
     transition: background-color 1s ease-in-out; }
     #page_header svg:active {
