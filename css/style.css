@@ -2,7 +2,7 @@
   0% {
     background-color: white; }
   100% {
-    background-color: red; } }
+    background-color: pink; } }
 
 * {
   padding: 0;
@@ -19,7 +19,7 @@
   #page_header svg {
     transition: background-color 1s ease-in-out; }
     #page_header svg:active {
-      background-color: blue; }
+      background-color: aqua; }
   #page_header nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
